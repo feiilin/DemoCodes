@@ -1,1 +1,4 @@
 # DemoCodes
+## **Sort**
+    QuickSort
+    BubbleSort
