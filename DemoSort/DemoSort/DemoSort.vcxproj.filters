@@ -16,6 +16,9 @@
     <Filter Include="源文件\SortMethod">
       <UniqueIdentifier>{59e26ac9-d524-45cf-ad5e-f8bf0dac3ae1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\Header">
+      <UniqueIdentifier>{1ddb948d-74d7-4b25-bb9b-076876e3af22}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -27,31 +30,31 @@
     <ClInclude Include="targetver.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="QuickSort.h">
+    <ClInclude Include="demo_data_model.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="DemoDataModel.h">
-      <Filter>头文件</Filter>
+    <ClInclude Include="bubble_sort.h">
+      <Filter>头文件\Header</Filter>
     </ClInclude>
-    <ClInclude Include="BubbleSort.h">
-      <Filter>头文件</Filter>
+    <ClInclude Include="quick_sort.h">
+      <Filter>头文件\Header</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="DemoSort.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="DemoDataModel.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="BubbleSort.cpp">
+    <ClCompile Include="bubble_sort.cpp">
       <Filter>源文件\SortMethod</Filter>
     </ClCompile>
-    <ClCompile Include="QuickSort.cpp">
+    <ClCompile Include="quick_sort.cpp">
       <Filter>源文件\SortMethod</Filter>
+    </ClCompile>
+    <ClCompile Include="demo_data_model.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="demo_sort.cpp">
+      <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
