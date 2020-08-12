@@ -1,8 +1,16 @@
+/********************************************
+// 类名：QuickSort
+// 功能描述：快速排序
+// 创建人：feiilin
+// 创建时间：2020.08.12
+// 描述：
+//******************************************/
+
 #include "stdafx.h"
 #include "QuickSort.h"
 
 
-void QuickSort::Sort(DemoDataModel *dataModel, int leftIndex, int rightIndex){
+void QuickSort::sort(DemoDataModel *dataModel, int leftIndex, int rightIndex){
 	if (leftIndex >= rightIndex || leftIndex < 0 || rightIndex < 0)
 		return;
 
@@ -35,10 +43,10 @@ void QuickSort::Sort(DemoDataModel *dataModel, int leftIndex, int rightIndex){
 	dataModel[i] = base;
 
 	// 对左半区间进行相同方法的排序
-	Sort(dataModel, leftIndex, i - 1);
+	sort(dataModel, leftIndex, i - 1);
 
 	// 对右半区间进行相同方法的排序
-	Sort(dataModel, i + 1, rightIndex);
+	sort(dataModel, i + 1, rightIndex);
 }
 
 QuickSort::QuickSort()

@@ -5,6 +5,7 @@
 #include <iostream>
 #include "DemoDataModel.h"
 #include "QuickSort.h"
+#include "BubbleSort.h"
 
 using namespace std;
 
@@ -28,8 +29,11 @@ int _tmain(int argc, _TCHAR* argv[])
 
 
 
-	QuickSort sortMethod;
-	sortMethod.Sort(dataList, 0, n-1);
+	/*QuickSort sortMethod;
+	sortMethod.Sort(dataList, 0, n-1);*/
+
+	BubbleSort sortMethod;
+	sortMethod.sort(dataList, n);
 
 	cout << "ÅÅÐòºó" << endl;
 

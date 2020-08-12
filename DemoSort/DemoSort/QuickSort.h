@@ -4,7 +4,7 @@
 class QuickSort
 {
 public:
-	void Sort(DemoDataModel *dataModel,int leftIndex,int rightIndex);
+	void sort(DemoDataModel *dataModel,int leftIndex,int rightIndex);
 
 	QuickSort();
 	~QuickSort();
