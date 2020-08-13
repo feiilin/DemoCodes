@@ -3,8 +3,8 @@
 class DirectInsertSort
 {
 public:
-	void sort(DemoDataModel *dataModel, int num);
 
+	void sort(DemoDataModel *dataModel, int num);
 
 	DirectInsertSort();
 	~DirectInsertSort();

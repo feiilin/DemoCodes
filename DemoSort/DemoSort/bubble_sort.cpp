@@ -25,12 +25,9 @@ void BubbleSort::sort(DemoDataModel *dataModel, int num){
 				dataModel[i + 1] = temp;
 			}
 		}
-
 		// 进行下一轮
 		loopCnt -= 1;
 	}
-	
-
 }
 
 BubbleSort::BubbleSort()

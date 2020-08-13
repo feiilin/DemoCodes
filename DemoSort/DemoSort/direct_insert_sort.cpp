@@ -1,3 +1,11 @@
+/********************************************
+// 类名：DirectInsertSort
+// 功能描述：直接插入排序
+// 创建人：feiilin
+// 创建时间：2020.08.12
+// 描述：
+//******************************************/
+
 #include "stdafx.h"
 #include "direct_insert_sort.h"
 #include <iostream>
@@ -33,7 +41,6 @@ void DirectInsertSort::sort(DemoDataModel *dataModel,int num)
 DirectInsertSort::DirectInsertSort()
 {
 }
-
 
 DirectInsertSort::~DirectInsertSort()
 {

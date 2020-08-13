@@ -27,8 +27,6 @@ int _tmain(int argc, _TCHAR* argv[])
 
 	cout << endl;
 
-
-
 	// ¿ìËÙÅÅÐò
 	/*QuickSort sortMethod;
 	sortMethod.Sort(dataList, 0, n-1);*/
