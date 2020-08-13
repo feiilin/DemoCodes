@@ -19,7 +19,7 @@ void BubbleSort::sort(DemoDataModel *dataModel, int num){
 		// 从而找到本轮中的最大值，将其移动到最末尾
 		for (int i = 0; i < loopCnt; i++)
 		{
-			if (dataModel[i].sortKey > dataModel[i + 1].sortKey){
+			if (dataModel[i].sort_key > dataModel[i + 1].sort_key){
 				temp = dataModel[i];
 				dataModel[i] = dataModel[i + 1];
 				dataModel[i + 1] = temp;

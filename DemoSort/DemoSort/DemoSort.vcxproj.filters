@@ -39,6 +39,9 @@
     <ClInclude Include="quick_sort.h">
       <Filter>头文件\Header</Filter>
     </ClInclude>
+    <ClInclude Include="direct_insert_sort.h">
+      <Filter>头文件\Header</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -55,6 +58,9 @@
     </ClCompile>
     <ClCompile Include="demo_sort.cpp">
       <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="direct_insert_sort.cpp">
+      <Filter>源文件\SortMethod</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

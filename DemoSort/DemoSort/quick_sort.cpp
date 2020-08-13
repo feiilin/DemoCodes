@@ -22,7 +22,7 @@ void QuickSort::sort(DemoDataModel *dataModel, int leftIndex, int rightIndex){
 	while (i != j)
 	{
 		// 第一重循环：从后向前遍历找比base小的值
-		while (i < j && dataModel[j].sortKey > base.sortKey)
+		while (i < j && dataModel[j].sort_key > base.sort_key)
 			j--;
 		
 		// 第一重循环解除，找到值，交换位置,空位到了后方，接下来从前方开始遍历
@@ -31,7 +31,7 @@ void QuickSort::sort(DemoDataModel *dataModel, int leftIndex, int rightIndex){
 		}
 
 		// 第二重循环：从前向后找比base大的值
-		while (i < j && dataModel[i].sortKey <= base.sortKey)
+		while (i < j && dataModel[i].sort_key <= base.sort_key)
 			i++;
 
 		// 第二重循环解除，找到值，交换，空位到了前方，接下来又从后方开始遍历

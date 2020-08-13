@@ -6,6 +6,7 @@
 #include "demo_data_model.h"
 #include "quick_sort.h"
 #include "bubble_sort.h"
+#include "direct_insert_sort.h"
 
 using namespace std;
 
@@ -15,31 +16,37 @@ int _tmain(int argc, _TCHAR* argv[])
 	DemoDataModel *dataList = new DemoDataModel[n];
 	int keyList[n] = {5,9,2,4,24,21,3,7,4,6};
 	for (int i = 0; i < n; i++){
-		dataList[i].sortKey = keyList[i];
+		dataList[i].sort_key = keyList[i];
 	}
 	cout << "ÅÅÐòÇ°" << endl;
 
 	for (int i = 0; i < n; i++)
 	{
-		cout << dataList[i].sortKey << " ";
+		cout << dataList[i].sort_key << " ";
 	}
 
 	cout << endl;
 
 
 
-
+	// ¿ìËÙÅÅÐò
 	/*QuickSort sortMethod;
 	sortMethod.Sort(dataList, 0, n-1);*/
 
-	BubbleSort sortMethod;
+	// Ã°ÅÝÅÅÐò
+	/*BubbleSort sortMethod;
+	sortMethod.sort(dataList, n);*/
+
+	// Ö±½Ó²åÈëÅÅÐò
+	DirectInsertSort sortMethod;
 	sortMethod.sort(dataList, n);
+	
 
 	cout << "ÅÅÐòºó" << endl;
 
 	for (int i = 0; i < n; i++)
 	{
-		cout << dataList[i].sortKey << " ";
+		cout << dataList[i].sort_key << " ";
 	}
 
 	cin.get();

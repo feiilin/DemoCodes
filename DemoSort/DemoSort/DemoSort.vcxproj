@@ -81,6 +81,7 @@
   <ItemGroup>
     <ClInclude Include="bubble_sort.h" />
     <ClInclude Include="demo_data_model.h" />
+    <ClInclude Include="direct_insert_sort.h" />
     <ClInclude Include="quick_sort.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
@@ -89,6 +90,7 @@
     <ClCompile Include="bubble_sort.cpp" />
     <ClCompile Include="demo_data_model.cpp" />
     <ClCompile Include="demo_sort.cpp" />
+    <ClCompile Include="direct_insert_sort.cpp" />
     <ClCompile Include="quick_sort.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
