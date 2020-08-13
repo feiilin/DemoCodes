@@ -1,8 +1,13 @@
-﻿生成启动时间为 2020/8/13 13:33:12。
+﻿生成启动时间为 2020/8/13 13:46:24。
      1>项目“D:\work\GSAS_2.0\sourcecode\DemoCodes\DemoSort\DemoSort\DemoSort.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\DemoSort.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt direct_insert_sort.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\DemoSort.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt bubble_sort.cpp demo_data_model.cpp demo_sort.cpp direct_insert_sort.cpp quick_sort.cpp
+         quick_sort.cpp
          direct_insert_sort.cpp
+         demo_sort.cpp
+         demo_data_model.cpp
+         bubble_sort.cpp
+         正在生成代码...
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\work\GSAS_2.0\sourcecode\DemoCodes\DemoSort\Debug\DemoSort.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\work\GSAS_2.0\sourcecode\DemoCodes\DemoSort\Debug\DemoSort.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\work\GSAS_2.0\sourcecode\DemoCodes\DemoSort\Debug\DemoSort.lib" /MACHINE:X86 Debug\bubble_sort.obj
          Debug\demo_data_model.obj
@@ -15,4 +20,4 @@
 
 生成成功。
 
-已用时间 00:00:00.64
+已用时间 00:00:01.49
