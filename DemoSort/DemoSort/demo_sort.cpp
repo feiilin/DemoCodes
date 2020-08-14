@@ -7,6 +7,7 @@
 #include "quick_sort.h"
 #include "bubble_sort.h"
 #include "direct_insert_sort.h"
+#include "half_insert_sort.h"
 
 using namespace std;
 
@@ -36,8 +37,13 @@ int _tmain(int argc, _TCHAR* argv[])
 	sortMethod.sort(dataList, n);*/
 
 	// 直接插入排序
-	DirectInsertSort sortMethod;
+	/*DirectInsertSort sortMethod;
+	sortMethod.sort(dataList, n);*/
+
+	// 二分法插入排序
+	HalfInsertSort sortMethod;
 	sortMethod.sort(dataList, n);
+	
 	
 
 	cout << "排序后" << endl;

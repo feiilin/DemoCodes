@@ -42,6 +42,12 @@
     <ClInclude Include="direct_insert_sort.h">
       <Filter>头文件\Header</Filter>
     </ClInclude>
+    <ClInclude Include="half_insert_sort.h">
+      <Filter>头文件\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="demo_data_link_model.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -61,6 +67,12 @@
     </ClCompile>
     <ClCompile Include="direct_insert_sort.cpp">
       <Filter>源文件\SortMethod</Filter>
+    </ClCompile>
+    <ClCompile Include="half_insert_sort.cpp">
+      <Filter>源文件\SortMethod</Filter>
+    </ClCompile>
+    <ClCompile Include="demo_data_link_model.cpp">
+      <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
