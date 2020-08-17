@@ -48,6 +48,9 @@
     <ClInclude Include="demo_data_link_model.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="shell_sort.h">
+      <Filter>头文件\Header</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -73,6 +76,9 @@
     </ClCompile>
     <ClCompile Include="demo_data_link_model.cpp">
       <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="shell_sort.cpp">
+      <Filter>源文件\SortMethod</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

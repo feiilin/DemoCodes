@@ -5,6 +5,7 @@ class DirectInsertSort
 public:
 
 	void sort(DemoDataModel *dataModel, int num);
+	void sort_1(DemoDataModel *dataModel, int num);
 
 	DirectInsertSort();
 	~DirectInsertSort();

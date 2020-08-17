@@ -8,6 +8,7 @@
 #include "bubble_sort.h"
 #include "direct_insert_sort.h"
 #include "half_insert_sort.h"
+#include "shell_sort.h"
 
 using namespace std;
 
@@ -38,10 +39,14 @@ int _tmain(int argc, _TCHAR* argv[])
 
 	// 直接插入排序
 	/*DirectInsertSort sortMethod;
-	sortMethod.sort(dataList, n);*/
+	sortMethod.sort_1(dataList, n);*/
 
 	// 二分法插入排序
-	HalfInsertSort sortMethod;
+	//HalfInsertSort sortMethod;
+	//sortMethod.sort(dataList, n);
+	
+	// shell排序
+	ShellSort sortMethod;
 	sortMethod.sort(dataList, n);
 	
 	

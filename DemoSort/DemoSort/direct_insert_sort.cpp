@@ -3,7 +3,7 @@
 // 功能描述：直接插入排序
 // 创建人：feiilin
 // 创建时间：2020.08.12
-// 描述：
+// 描述：sort_1比sort方法更加简明一些
 //******************************************/
 
 #include "stdafx.h"
@@ -11,6 +11,9 @@
 #include <iostream>
 using namespace std;
 
+/**
+	本函数先找插入位置再进行实际插入移位
+*/
 void DirectInsertSort::sort(DemoDataModel *dataModel,int num)
 {
 	// 从1开始，逐次与之前的数据进行比对，找出应该插入的位置
@@ -37,6 +40,25 @@ void DirectInsertSort::sort(DemoDataModel *dataModel,int num)
 		}
 	}
 }
+
+/**
+	此函数通过固定次数的比较不断进行判断是否需要将i位置的值（待比较项）向前移动一格
+*/
+void DirectInsertSort::sort_1(DemoDataModel *dataModel, int num)
+{
+	for (int i = 1; i < num; i++)
+	{
+		int j;
+		DemoDataModel temp = dataModel[i];
+		for (j = i - 1; j >= 0 && temp.sort_key < dataModel[j].sort_key; j--)
+		{
+			dataModel[j + 1] = dataModel[j];
+			dataModel[j] = temp;
+		}
+	}
+}
+
+
 
 DirectInsertSort::DirectInsertSort()
 {
